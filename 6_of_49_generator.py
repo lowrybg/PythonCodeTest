@@ -9,10 +9,10 @@ miliseconds_last_two_digits = current_milli_time() % 100
 print(f'Current milliseconds: {int(miliseconds_last_two_digits)}')
 
 if miliseconds_last_two_digits < len(numbers_49):
-    if miliseconds_last_two_digits == 0 or miliseconds_last_two_digits == 99:
-        exit(0)
-    index = numbers_49.index(miliseconds_last_two_digits)
-    print(f'Number is: {numbers_49[index]}')
+        index = numbers_49.index(miliseconds_last_two_digits)
+        print(f'Number is: {numbers_49[index]}')
 else:
+    if miliseconds_last_two_digits == 0 or miliseconds_last_two_digits >= 98:
+        exit (0)
     index = miliseconds_last_two_digits - len(numbers_49)
     print(f'Number is: {numbers_49[index]}')
