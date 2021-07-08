@@ -6,11 +6,11 @@ def current_milli_time():
     return round(time.time() * 1000)
 
 miliseconds_last_two_digits = current_milli_time() % 100
-print(f'{int(miliseconds_last_two_digits)}')
+print(f'Current milliseconds: {int(miliseconds_last_two_digits)}')
 
 if miliseconds_last_two_digits < len(numbers_49):
     index = numbers_49.index(miliseconds_last_two_digits)
-    print(numbers_49[index])
+    print(f'Number is: {numbers_49[index]}')
 else:
     index = miliseconds_last_two_digits - len(numbers_49)
-    print(numbers_49[index])
+    print(f'Number is: {numbers_49[index]}')
