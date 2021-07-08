@@ -8,3 +8,9 @@ def current_milli_time():
 miliseconds_last_two_digits = current_milli_time() % 100
 print(f'{int(miliseconds_last_two_digits)}')
 
+if miliseconds_last_two_digits < len(numbers_49):
+    index = numbers_49.index(miliseconds_last_two_digits)
+    print(numbers_49[index])
+else:
+    index = miliseconds_last_two_digits - len(numbers_49)
+    print(numbers_49[index])
