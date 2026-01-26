@@ -37,6 +37,7 @@
   "keyToString": {
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
@@ -158,7 +159,7 @@
       <workItem from="1625678079128" duration="2168000" />
       <workItem from="1625733465550" duration="5175000" />
       <workItem from="1769447823725" duration="239000" />
-      <workItem from="1769448093917" duration="503000" />
+      <workItem from="1769448093917" duration="803000" />
     </task>
     <task id="LOCAL-00001" summary="Interpreter added">
       <created>1622030927727</created>
