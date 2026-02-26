@@ -4,6 +4,8 @@ import random
 def random_walk_2d(steps):
     # Simulates a 2D random walk on a grid.
     # Returns the path taken as a list of (x, y) coordinates.
+    # Used in biology to model random behavior (like a molecule moving through a liquid),also in
+    # physics and economics
     x, y = 0, 0
     path = [(x, y)]
 
