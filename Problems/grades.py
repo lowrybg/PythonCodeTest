@@ -24,7 +24,7 @@ def calculate_exam_statistics():
     # Read the total number of students
     students_count = int(input())
 
-   
+
     top_students = 0
     good_students = 0  # 4.00 to 4.99
     average_students = 0  # 3.00 to 3.99
