@@ -42,4 +42,3 @@ def draw_christmas_hat():
 
 if __name__ == "__main__":
     draw_christmas_hat()
-    
