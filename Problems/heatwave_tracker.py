@@ -41,8 +41,8 @@ def track_heatwave():
         best_peak = current_peak
 
     if max_streak > 0:
-        print(f"{max_streak} days")
-        print(f"{best_peak:.1f}°C")
+        print(f"Longest heatwave: {max_streak} days")
+        print(f"Peak temperature during heatwave: {best_peak:.1f}°C")
     else:
         print("No heatwave detected.")
 
